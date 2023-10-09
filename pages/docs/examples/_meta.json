@@ -1,10 +1,10 @@
 {
-  "vanilla": "Vanilla JS",
-  "react": "React",
-  "vue": "VueJS",
-  "svelte": "Svelte",
-  "astro": "Astro",
-  "remix": "Remix",
+  "vanilla": {"display": "hidden"},
+  "react": {"display": "hidden"},
+  "vue": {"display": "hidden"},
+  "svelte": {"display": "hidden"},
+  "astro": {"display": "hidden"},
+  "remix": {"display": "hidden"},
   "responsive-variants": {
     "display": "hidden",
     "type": "page",
