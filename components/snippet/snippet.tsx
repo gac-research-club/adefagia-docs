@@ -29,7 +29,9 @@ const Snippet: FC<SnippetProps> = ({ className }) => {
         className
       )}
     >
-      <div className="dark:text-white">$ git clone https://github.com/gac-research-club/adefagia-dev.git</div>
+      <div className="dark:text-white">
+        $ git clone https://github.com/gac-research-club/adefagia-dev.git
+      </div>
       <Tooltip content="Copy to clipboard" delay={600} onClick={handleCopyCode}>
         {copied ? (
           <CheckIcon className="text-success" size={18} />
