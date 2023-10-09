@@ -1,0 +1,23 @@
+## Attack Classification
+
+Attack Classification details the offensive capabilities of robot weapons, including:
+
+
+| Range Type  | Weapon Name    | Min | Max | Damage Constant | Border Type |Through| Stamina Used | Animation | Damage Output    |
+| ---------- | --------------- | --- | --- | --------------- | ---------- | ----|-------- | ---------- | ----------------------- |
+| Short      | Shotgun         | 1   | 2   | 7               | Square     | No|Reverse      | Gunshot    | Damage - Distance       | 
+| Projectile | Rocket Launcher | 3   | 8   | 3               | Diamond    | Yes|Normal       | Bomb       | Damage + (Distance : 2) | 
+| Long       | Sniper          | 1   | 7   | 2               | Cross      | No|Normal       | Arrow Shot | Damage + Distance       | 
+
+### Description : 
+
+- **Range Type**: Specifies the range category to which the weapon belongs, like Short, Projectile, or Long.
+- **Weapon Name**: Identifies the name of the weapon.
+- **Min Range**: The minimum range at which the weapon can be used effectively.
+- **Max Range**: The maximum range at which the weapon can be used effectively.
+- **Damage Constant**: Indicates the weapon's base damage output.
+- **Border Type**: Describes the movement and attack pattern of the weapon, whether it's Square, Cross, or Diamond.
+- **Through**: Specifies whether the weapon can pass through obstacles.
+- **Stamina Used**: Indicates the type of stamina usage associated with the weapon, such as Normal or Reverse.
+- **Animation**: Describes the animation or visual effects associated with the weapon.
+- **Damage Output**: Provides information on how the weapon's damage is calculated, often based on distance

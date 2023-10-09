@@ -1,0 +1,75 @@
+
+## Range Type
+
+Mech-AI: Battle Arena features three distinct Range Types for weapons, each serving a unique purpose:
+
+- **Short Range**: Intended for close-range attacks, these weapons are designed for confrontations at a proximity where accuracy and precision are key.
+    
+    ![Frame 2a](https://github.com/gac-research-club/adefagia-dev/assets/43704863/f011fc2d-0ffb-416b-9233-f705b08681fb)
+
+    ```
+    - min(1)
+    - max(2) *only even value
+    ```
+    
+
+
+- **Long Range**: These weapons excel at long-range engagements, allowing players to target opponents from a distance, providing strategic advantages.
+    
+    ![Frame 2b](https://github.com/gac-research-club/adefagia-dev/assets/43704863/ad6e8dd7-7bd9-4bdf-bf0f-943ec5064dfa)
+
+    ```
+    - min(1) 
+    - max(1)
+    ```
+
+
+- **Projectile**: This weapon type combines the advantages of long-range attacks with the ability to penetrate obstacles, making it a versatile choice for tactical gameplay.
+
+    ![Frame 2c](https://github.com/gac-research-club/adefagia-dev/assets/43704863/f4fbd608-6bac-4b1c-87aa-eba667b84c4d)
+    
+    ```
+    - min(1) 
+    - max(2)
+    ```
+
+## Stamina Classification
+
+Stamina is a crucial attribute in Mech-AI: Battle Arena, and it varies for each **team**. The following statistics apply:
+
+| Regeneration Per Round | 2  |
+| ---------------------- | -- |
+| Initial Stamina        | 6  |
+| Max Stamina            | 21 |
+
+
+- **Regeneration Per Round** : Every round, each **team** regenerates 2 stamina points.
+
+- **Initial Stamina** : At the start of a round, each **team** begins with an initial stamina value of 6.
+
+- **Max Stamina** : The maximum stamina a **team** can possess is 21
+
+
+## Stamina Usage Types
+
+Stamina usage in Mech-AI: Battle Arena falls into two distinct categories:
+
+- **Normal Stamina Usage**: This type of stamina usage implies that the energy expended is directly proportional to the distance covered during actions.
+
+![Frame 3](https://github.com/gac-research-club/adefagia-dev/assets/43704863/ab001000-abbd-4165-8723-0898380ff426)
+
+    *Example `min(1)` and `max(5)`*
+
+The energy used is equal as the distance.
+
+
+- **Reverse Stamina Usage:** Reverse stamina usage is characterized by energy expenditure inversely related to the distance covered. Stamina consumption decreases as distance increases.
+
+![Frame 3 (1)](https://github.com/gac-research-club/adefagia-dev/assets/43704863/a4437958-d8aa-41ef-beb8-e3b3715d7efa)
+
+    *Example `min(1)` and `max(5)`*
+
+The energy used is reverse from max to min.
+
+
+These classifications significantly impact the strategic choices players make during battles.
