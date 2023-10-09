@@ -19,10 +19,10 @@ const Hero: FC<HeroProps> = () => {
       <div className={tvs.box({ class: 'relative z-10 w-full' })}>
         <Logo height={120} />
         <h1 className="mt-4 text-center text-4xl font-extrabold text-black dark:text-white md:text-5xl">
-          Tailwind Variants
+          Adefagia Project
         </h1>
         <p className="mt-2 text-center text-lg font-medium">
-          The power of Tailwind combined with a first-class variant API.
+          Mech-AI : Battle Arena Project Documentation
         </p>
       </div>
       <div className={tvs.box({ row: true, class: 'z-10 gap-2' })}>

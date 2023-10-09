@@ -25,11 +25,11 @@ const Snippet: FC<SnippetProps> = ({ className }) => {
   return (
     <div
       className={cn(
-        'flex h-10 w-[320px] items-center justify-between rounded-full bg-neutral/20 px-6 py-2 font-mono text-xs text-black backdrop-blur md:w-[420px] md:text-sm',
+        'flex h-10 w-[640px] items-center justify-between rounded-full bg-neutral/20 px-6 py-2 font-mono text-xs text-black backdrop-blur md:w-[640px] md:text-sm',
         className
       )}
     >
-      <div className="dark:text-white">$ npm install tailwind-variants</div>
+      <div className="dark:text-white">$ git clone https://github.com/gac-research-club/adefagia-dev.git</div>
       <Tooltip content="Copy to clipboard" delay={600} onClick={handleCopyCode}>
         {copied ? (
           <CheckIcon className="text-success" size={18} />

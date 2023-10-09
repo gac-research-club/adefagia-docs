@@ -24,7 +24,7 @@ const config: DocsThemeConfig = {
     <div className="flex items-center">
       <Logo height={30} />
       <b className="ml-1.5 hidden text-sm font-semibold sm:block sm:text-base">
-        Tailwind Variants
+        Mech AI
       </b>
       <span className={tvs.badge({ class: "hidden sm:flex" })}>
         v{getVersion()}
