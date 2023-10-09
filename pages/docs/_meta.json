@@ -6,19 +6,49 @@
     "title": "Why Tailwind Variants?",
     "display": "hidden"
   },
-  "getting-started": "Getting Started",
+  "getting-started": {
+    "title": "Getting Started"
+  },
   "game-designs" : "Game Designs",
-  "file-structure" : "Files Structure",
-  "variants": "Variants",
-  "slots": "Slots",
-  "overriding-styles": "Overriding Styles",
-  "composing-components": "Composing Components",
-  "examples": "Examples",
-  "typescript":  "Typescript",
-  "api-reference": "API Reference",
-  "acknowledgements": "Acknowledgements",
-  "faq": "FAQ"
+  "file-structure" : {
+    "title": "File Structure",
+    "display": "hidden"
+  },
+  "variants": {
+    "title": "Variants",
+    "display": "hidden"
+  },
+  "slots": {
+    "title": "Slots",
+    "display": "hidden"
+  },
+  "overriding-styles":{
+    "title": "Overriding Styles",
+    "display": "hidden"
+  } ,
+  "composing-components":{
+    "title": "Composing Components",
+    "display": "hidden"
+  } ,
+  "examples":{
+    "title": "Examples",
+    "display": "hidden"
+  } ,
+  "typescript":{
+    "title": "Typescript",
+    "display": "hidden"
+  }  ,
+  "api-reference":{
+    "title": "API Reference",
+    "display": "hidden"
+  } ,
+  "acknowledgements":{
+    "title": "Acknowledgements",
+    "display": "hidden"
+  } ,
+  "faq":{
+    "title": "FAQ",
+    "display": "hidden"
+  } 
   
-  
-
 }

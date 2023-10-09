@@ -10,7 +10,7 @@ const DEFAULT_VERSION = "0.1.14";
 
 const getVersion = () => {
   return (
-    pkg?.dependencies?.["tailwind-variants"]?.replace("^", "") ??
+    pkg?.["version"]?.replace("^", "") ??
     DEFAULT_VERSION
   );
 };
@@ -84,7 +84,7 @@ const config: DocsThemeConfig = {
     const router = useRouter();
     const { frontMatter } = useConfig();
 
-    const defaultTitle = frontMatter.overrideTitle || "Tailwind Variants";
+    const defaultTitle = frontMatter.overrideTitle || "Mech-AI";
 
     return {
       description: frontMatter.description,
@@ -93,10 +93,10 @@ const config: DocsThemeConfig = {
     };
   },
   project: {
-    link: "https://github.com/nextui-org/tailwind-variants",
+    link: "https://github.com/gac-research-club/adefagia-dev",
   },
   chat: {
-    link: "https://discord.gg/9b6yyZKmH4",
+    // link: "https://discord.gg/9b6yyZKmH4",
   },
   docsRepositoryBase:
     "https://github.com/nextui-org/tailwind-variants-docs/blob/main",
@@ -120,7 +120,7 @@ const config: DocsThemeConfig = {
           </a>
         </div>
         <p className="mt-6 text-xs">
-          MIT {new Date().getFullYear()} The Tailwind Variants Project.
+          MIT {new Date().getFullYear()} The Mech-AI Project.
         </p>
       </div>
     ),
