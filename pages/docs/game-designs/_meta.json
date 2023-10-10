@@ -1,12 +1,6 @@
 {
-
-  "overview": "Overview",
-  "attack-classification" : "Attack Classification",
-  "move-classification" : "Move Classification",
-  "skill-classification": "Skill Classification",
-  "item-classification": "Item Classification",
-  "armor-specification": "Armor Specification",
-  "helmet-specification": "Helmet Specification",
-  "support-classification": "Support Classification"
-
+  "flow": {
+    "title": "Game Flow"
+  },
+  "spec-class": "Spec & Class"
 }

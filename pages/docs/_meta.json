@@ -9,8 +9,8 @@
   "getting-started": {
     "title": "Getting Started"
   },
-  "game-designs" : "Game Designs",
-  "file-structure" : {
+  "game-designs": "Game Designs",
+  "file-structure": {
     "title": "File Structure",
     "display": "hidden"
   },
@@ -22,33 +22,32 @@
     "title": "Slots",
     "display": "hidden"
   },
-  "overriding-styles":{
+  "overriding-styles": {
     "title": "Overriding Styles",
     "display": "hidden"
-  } ,
-  "composing-components":{
+  },
+  "composing-components": {
     "title": "Composing Components",
     "display": "hidden"
-  } ,
-  "examples":{
+  },
+  "examples": {
     "title": "Examples",
     "display": "hidden"
-  } ,
-  "typescript":{
+  },
+  "typescript": {
     "title": "Typescript",
     "display": "hidden"
-  }  ,
-  "api-reference":{
+  },
+  "api-reference": {
     "title": "API Reference",
     "display": "hidden"
-  } ,
-  "acknowledgements":{
+  },
+  "acknowledgements": {
     "title": "Acknowledgements",
     "display": "hidden"
-  } ,
-  "faq":{
+  },
+  "faq": {
     "title": "FAQ",
     "display": "hidden"
-  } 
-  
+  }
 }
