@@ -1,0 +1,50 @@
+
+# Battle Flow
+
+import Image from 'next/image'
+
+<Image
+  alt="tailwind-variants banner"
+  priority
+  quality={90}
+  className="rounded-lg mt-1"
+  height="730"
+  src="/battle-flow.png"
+  width="1460"
+/>
+
+## Deploy
+
+In the Deploy state, each team strategically positions their robots on the battlefield. Players have 7 seconds per robot to carefully select the ideal deployment locations. This phase is critical as it sets the initial battlefield conditions and influences the strategy for the upcoming rounds.
+
+## Start Round
+
+The battle officially commences as both teams enter the Start Round phase. Each team begins with an initial stamina of 6. To determine which team takes the first turn, a random selection is made. This randomization adds an element of unpredictability to the game, ensuring fairness and excitement.
+
+## Select Robot
+
+The team that is selected to start the round must now make decisions regarding their robot's actions. Players have several strategic options:
+
+### Move 
+ 
+ Choose a robot's movement, which is determined by the equipped weapon. The chosen path should align with the selected strategy and tactical goals.
+
+### Attack 
+
+Engage an enemy robot in combat, aiming to reduce their health points (HP) and gain a tactical advantage.
+
+### Skill 
+
+Activate special skills or abilities depending on the equipped weapon. These skills may offer unique advantages, such as piercing attacks or area-of-effect damage.
+
+### Item 
+
+Utilize items previously selected during the customization phase. These items can impact various aspects of gameplay, such as restoring stamina, enhancing damage, or providing defensive capabilities.
+
+## End Turn
+
+After executing actions with the chosen robot, players have the option to end their turn if they believe their strategy is optimal for the current round. This choice advances the turn to the opposing team, initiating their decision-making phase.
+
+## Change Round
+
+Once both teams have completed their turns, the round advances to the next iteration. Along with the change of rounds, both teams receive a stamina boost of +2. This incremental increase in stamina ensures that each round remains dynamic, promoting ongoing strategic depth and diversity in gameplay.

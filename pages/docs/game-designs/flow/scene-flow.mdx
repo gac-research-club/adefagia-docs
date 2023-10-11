@@ -1,0 +1,84 @@
+
+# Scene Flow
+
+import Image from 'next/image'
+
+<Image
+  alt="tailwind-variants banner"
+  priority
+  quality={90}
+  className="rounded-lg mt-1"
+  height="730"
+  src="/scene-flow.png"
+  width="1460"
+/>
+
+
+## Splash Screen
+
+This is the first impression for players, providing an enticing display of the game logo or an animation to captivate their attention.
+
+## Welcome (Loading)
+
+This scene serves as a preparatory step, ensuring that all necessary game resources are loaded efficiently. It may also include a loading screen or a welcoming message to engage players while assets are prepared.
+
+## Sign In / Sign Up
+
+In this section, players have the option to either log into their existing accounts or create new ones. This step allows them to access their profiles and save their progress, making it a pivotal part of the game's user journey.
+
+## Main Menu
+
+The Main Menu is the central hub of Mech-AI: Battle Arena, serving as the primary gateway to various aspects of the game. It provides players with a comprehensive overview of the game's features and activities, allowing them to navigate and engage with the following options
+
+
+### Store
+
+This section opens the door to a virtual shopping experience where players can explore and acquire various in-game items, including skins, robots, and emojis. It also features several child scenes:
+
+ - **Featured Event** : This area provides a dynamic view of ongoing in-game events and promotions, enticing players to participate.
+
+ - **Skin** : The skin shop lets players browse and purchase robot skins to personalize their in-game appearance.
+
+ - **Card** : Here, players can customize their in-game name by selecting from a variety of cards.
+
+ - **Spray** : This section allows players to choose emojis for communication during battles.
+
+ - **Credit** : A post-credit scene that may include acknowledgments or other concluding content.
+
+
+### Mission Scene 
+
+A place to view and track a list of achievements and missions that players have successfully completed.
+
+### Customization 
+
+This section grants players the power to customize their robots, weapons, skins, and more. It also includes several child scenes:
+
+- **Custom Load Scene** : Players can configure robot decks, manage teams, delete teams, and reset teams for strategic advantage. It consists of the following sub-scenes:
+
+    1. **Selection Robot Scene** : Choose the robots to assign to decks.
+    2. **Equipment Pool** : Select weapons, helmets, and armor for each robot.
+
+
+- **Skin** : Players can equip skins on their robots to express their unique style.
+- **Card** : Choose a card name for your in-game persona.
+- **Spray** : Select emojis for use during battles.
+
+### Campaign Scene 
+
+Immerse yourself in captivating, story-driven adventures, where players battle NPCs in various chapters to unravel the narrative.
+
+### Multiplayer Scene 
+
+Engage in intense Player vs. Player (PvP) battles, where strategic prowess is put to the test. This section comprises several sub-scenes:
+
+- **Start** : Begin a multiplayer session.
+- **Matchmaking** : Find opponents or teammates to create dynamic battles.
+- **Robot Deck Choose** : Select a deck configuration for battle.
+- **Preview** : View opponents' profiles or team compositions to prepare for the upcoming fight.
+- **Inventory Pool** : Select supporting items for the battle, with a recommendation system to aid your choices.
+- **Battle** : Engage in thrilling multiplayer battles, whether they are 3 vs. 3 or 1 vs. 1.
+
+## Quit Scene
+
+This option allows players to gracefully exit the game when they choose, providing a user-friendly way to conclude their gaming session.
