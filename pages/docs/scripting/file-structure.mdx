@@ -1,0 +1,161 @@
+import { Callout } from "nextra-theme-docs";
+import { FileTree } from "nextra-theme-docs";
+
+# File Structure
+
+<Callout type="info">
+  <div className="text-sm">
+    This [Drive](https://drive.google.com/drive/folders/1k7QUOA8WsvVmRB20SvFal3jFoATWV2tr?usp=sharing) for store all Digital asset.
+  </div>
+</Callout>
+
+The file structure of Mech-AI: Battle Arena is organized to ensure efficiency, maintainability, and clarity in managing the various components of the game. It provides a clear hierarchy of directories and files, making it easy for developers to collaborate, maintain, and expand the project.
+
+<FileTree>
+  <FileTree.Folder name="Assets" defaultOpen>
+    <FileTree.Folder name="Adefagia" defaultOpen>
+            <FileTree.Folder name="Arts" defaultOpen>        
+                <FileTree.Folder name="Materials">        
+                </FileTree.Folder>        
+                <FileTree.Folder name="Textures">        
+                </FileTree.Folder>        
+                <FileTree.Folder name="Fonts">        
+                </FileTree.Folder>        
+                <FileTree.Folder name="UI">        
+                </FileTree.Folder>        
+                <FileTree.Folder name="Models">        
+                </FileTree.Folder>        
+                <FileTree.Folder name="Audio">        
+                </FileTree.Folder>        
+                <FileTree.Folder name="Video">        
+                </FileTree.Folder>        
+                <FileTree.Folder name="Skybox">        
+                </FileTree.Folder>        
+                <FileTree.Folder name="Sprite">        
+                </FileTree.Folder>
+            </FileTree.Folder>
+            <FileTree.Folder name="Code" defaultOpen>   
+                <FileTree.Folder name="Scripts">        
+                </FileTree.Folder>        
+                <FileTree.Folder name="Scriptable Objects">        
+                </FileTree.Folder>        
+                <FileTree.Folder name="Shader">        
+                </FileTree.Folder>        
+                <FileTree.Folder name="Editor">        
+                </FileTree.Folder>
+            </FileTree.Folder>
+            <FileTree.Folder name="Scenes" defaultOpen>        
+                <FileTree.File name="MainMenu.unity" />
+                <FileTree.File name="Battle.unity" />
+                <FileTree.File name="Splashscreen.unity" />
+            </FileTree.Folder>
+            <FileTree.Folder name="Prefabs">    
+                <FileTree.Folder name="General">        
+                </FileTree.Folder>
+                <FileTree.Folder name="Store">        
+                </FileTree.Folder>
+                <FileTree.Folder name="Inbox">        
+                </FileTree.Folder>    
+                <FileTree.Folder name="Customization">        
+                </FileTree.Folder>
+                <FileTree.Folder name="Main Menu">        
+                </FileTree.Folder>        
+                <FileTree.Folder name="SplashScreen">        
+                </FileTree.Folder>        
+                <FileTree.Folder name="Battle">        
+                </FileTree.Folder>                
+            </FileTree.Folder>
+    </FileTree.Folder>
+    <FileTree.Folder name="Addons">
+        <FileTree.Folder name="DoTween">        
+        </FileTree.Folder>
+        <FileTree.Folder name="Flat Icon">        
+        </FileTree.Folder>
+        <FileTree.Folder name="Isometric 3D">        
+        </FileTree.Folder>
+        <FileTree.Folder name="Mecha">        
+        </FileTree.Folder>
+        <FileTree.Folder name="Shift UI">        
+        </FileTree.Folder>
+        <FileTree.Folder name="TextMesh Pro">        
+        </FileTree.Folder>
+    </FileTree.Folder>
+
+    <FileTree.Folder name="Resources">
+        <FileTree.File name="generalresource.cs" />
+    </FileTree.Folder>
+    
+    
+  </FileTree.Folder>
+</FileTree>
+
+
+## Adefagia 
+
+A subdirectory that appears to be the core directory for your game's assets.
+
+### Arts
+
+This directory contains art-related assets, including subdirectories for materials, textures, fonts, UI elements, 3D models, audio files, videos, skyboxes, and sprites.
+
+#### a. Materials
+This directory likely contains material assets that define the visual properties of objects in the game. Materials may include textures, shaders, and other settings that determine how objects appear when rendered.
+
+#### b. Textures
+"Textures" is where you store image files, such as textures, images for 3D models, and 2D graphics used throughout the game. Textures are essential for applying visuals to game objects.
+
+#### c. Fonts
+The "Fonts" directory is dedicated to fonts and typography assets. Fonts are used to display text and UI elements within the game. This directory may house TrueType Font (TTF) files or bitmap fonts.
+
+#### d. UI
+"UI" contains assets used for creating the game's user interface (UI). This includes elements like buttons, menus, HUD components, and any other interactive interface elements.
+
+#### f. Models
+The "Models" directory is where you store 3D models and associated assets. These models represent characters, objects, and other elements within the game's 3D environment.
+
+#### g. Audio
+In the "Audio" directory, you keep audio assets, including sound effects, background music, voiceovers, and other auditory elements that enhance the gaming experience.
+
+#### h. Video
+Video assets, which can be cutscenes, video introductions, or in-game video sequences, are stored in the "Video" directory. This directory is crucial for cinematic storytelling.
+
+#### i. Skybox
+Skyboxes are essential for creating the game's background and environmental atmosphere. The "Skybox" directory houses skybox assets, which include cubemaps or spherical images that provide immersive backgrounds.
+
+#### j. Sprite
+"Sprite" is dedicated to 2D sprite assets. These assets are commonly used for 2D games or for 2D elements within 3D games. Sprites can include characters, objects, and other flat, image-based game elements.
+
+
+### Code
+
+Contains script-related assets, including subdirectories for scripts, scriptable objects, shaders, and editor scripts.
+
+#### a. Scripts
+This subdirectory, "Scripts," is a central hub for all your game scripts and code files. It includes the C# scripts that control various aspects of gameplay, manage game mechanics, and govern the behavior of in-game elements.
+
+#### b. Scriptable Objects
+"Scriptable Objects" is where you store assets that are essentially data containers or objects with customized properties and values. These objects can be used to define various in-game settings, create templates for game objects, and hold data in a structured format.
+
+#### c. Shader
+The "Shader" directory contains shader files, which are responsible for defining how objects are rendered visually in the game. Shaders determine the appearance, materials, and visual effects of 3D models and other assets.
+
+#### d. Editor
+The "Editor" subdirectory is reserved for custom editor scripts and tools that extend the Unity Editor's functionality. These scripts are used to create custom editors, in-game debug tools, or automation scripts that enhance the development process.
+
+
+### Scenes
+
+Stores the game's scene files, including MainMenu, Battle, and Splashscreen.
+
+### Prefabs
+
+This directory houses prefab assets, which are pre-configured game objects. It includes subdirectories for general, store, inbox, customization, main menu, splash screen, and battle prefabs.
+
+
+## Addons 
+
+A directory containing third-party assets or plugins, including DoTween, Flat Icon, Isometric 3D, Mecha, Shift UI, and TextMesh Pro.
+
+## Resources
+
+This directory appears to hold resources in the form of a generalresource.cs file.
