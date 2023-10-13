@@ -2,53 +2,10 @@
   "introduction": {
     "title": "Introduction"
   },
-  "why-tailwind-variants": {
-    "title": "Why Tailwind Variants?",
-    "display": "hidden"
-  },
+
   "getting-started": {
     "title": "Getting Started"
   },
   "game-designs": "Game Designs",
-  "scripting": "Scripting Reference",
-  "file-structure": {
-    "title": "File Structure",
-    "display": "hidden"
-  },
-  "variants": {
-    "title": "Variants",
-    "display": "hidden"
-  },
-  "slots": {
-    "title": "Slots",
-    "display": "hidden"
-  },
-  "overriding-styles": {
-    "title": "Overriding Styles",
-    "display": "hidden"
-  },
-  "composing-components": {
-    "title": "Composing Components",
-    "display": "hidden"
-  },
-  "examples": {
-    "title": "Examples",
-    "display": "hidden"
-  },
-  "typescript": {
-    "title": "Typescript",
-    "display": "hidden"
-  },
-  "api-reference": {
-    "title": "API Reference",
-    "display": "hidden"
-  },
-  "acknowledgements": {
-    "title": "Acknowledgements",
-    "display": "hidden"
-  },
-  "faq": {
-    "title": "FAQ",
-    "display": "hidden"
-  }
+  "scripting": "Scripting Reference"
 }

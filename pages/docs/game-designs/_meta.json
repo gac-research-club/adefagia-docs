@@ -1,6 +1,4 @@
 {
-  "flow": {
-    "title": "Game Flow"
-  },
+  "flow": "Game Flow",
   "spec-class": "Spec & Class"
 }
